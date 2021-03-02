@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="animate.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/vue.js"></script>
+    <style>
+      a{
+           border-radius: 3px;
+       }
+
+    .page-link:hover {
+        border: 1px solid #5ea2e2 !important;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h4>分页条</h4>
+            <ul class="pagination">
+                <li class="page-item disabled mx-1"><a class="page-link" href="#">上一页</a></li>
+                <li class="page-item active mx-1"><a class="page-link" href="#">1</a></li>
+                <li class="page-item mx-1"><a class="page-link" href="#">2</a></li>
+                <li class="page-item mx-1"><a class="page-link" href="#">3</a></li>
+                <li class="page-item mx-1"><a class="page-link" href="#">4</a></li>
+                <li class="page-item mx-1"><a class="page-link" href="#">5</a></li>
+                <li class="page-item mx-1"><a class="page-link" href="#">下一页</a></li>
+            </ul>
+        </div>
+        <h4>折叠导航栏</h4>
+            <div class="navbar navbar-dark bg-dark navbar-expand-lg">
+                <a class="navbar-brand" href="#">Bootstrap</a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#demo">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="demo" class="collapse navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#">boot3</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">boot4</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">less教程</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">jquery教程</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">项目案例</a></li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
